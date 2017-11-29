@@ -1,7 +1,5 @@
 package com.reportcard.reportcard;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class ReportCard{
 
@@ -14,15 +12,15 @@ public class ReportCard{
     private String mBiologyGrade ;
 
 
-    public ReportCard(int studentID, String studentName) {
-        this.mStudentID = studentID;
-        this.mStudentName = studentName;
+    public ReportCard(int StudentID, String StudentName) {
+        this.mStudentID = StudentID;
+        this.mStudentName = StudentName;
     }
 
-    public ReportCard(int studentID, String studentName , String ChemistryGrade , String EnglishGrade ,
+    public ReportCard(int StudentID, String StudentName , String ChemistryGrade , String EnglishGrade ,
                       String MathGrade , String HistoryGrade , String BiologyGrade) {
-        this.mStudentID = studentID;
-        this.mStudentName = studentName;
+        this.mStudentID = StudentID;
+        this.mStudentName = StudentName;
         this.mChemistryGrade = ChemistryGrade ;
         this.mEnglishGrade = EnglishGrade ;
         this.mMathGrade = MathGrade ;
